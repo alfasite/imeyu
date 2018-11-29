@@ -1,0 +1,19 @@
+<div class="pavel-block">
+    <div class="pavel-box">
+        <div class="row">
+            <div class="pavel-image col-xs-12 col-sm-4"><img src="/bitrix/images/d-pravo-kontakt-f.jpg" alt="Павел"></div>
+            <div class="pavel-info col-xs-12 col-sm-8">
+                <div class="pavel-header">
+                    <h2 class="pavel-heading">Павел Тарасов</h2>
+                    <p class="pavel-about">Управляющий партнер Центра «Имею Право»,<br>член Ассоциации юристов России</p>
+                </div>
+                <p class="pavel-text"></p>
+<p>В своей работе я руководствуюсь принципом, что «если <strong>можно</strong> сделать что-то максимально хорошо, то <strong>нужно</strong> сделать это максимально хорошо», и требую такого же подхода от своих коллег.</p> 
+<p>Мы заботимся о наших Клиентах и стараемся всегда выполнять данные обещания, а я несу персональную ответственность за качество наших услуг.</p>
+<p>Поэтому я готов отложить свои дела, если Вам понадобилась поддержка или ответы по вопросам, требующим особого внимания, а также лично рассмотреть Ваши предложения, идеи и отзывы.</p>
+                <p></p>
+                <button type="button" class="btn btn-red" data-toggle="modal" data-target="#pavelModal">Написать Павлу</button>
+            </div> <!--pavel-info-->
+        </div> <!--row-->
+    </div> <!--pavel-box-->
+</div> <!--pavel-block-->
