@@ -1,0 +1,3032 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol, ul {
+    list-style: none
+}
+
+blockquote, q {
+    quotes: none
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+.how-short {
+    color: #fff !important
+}
+
+@font-face {
+    font-family: 'franklingothicbookc';
+    src: url("../../fonts/FranklinGothicBookC.eot");
+    src: url("../../fonts/FranklinGothicBookC.eot?#iefix") format("embedded-opentype"), url("../../fonts/FranklinGothicBookC.woff2") format("woff2"), url("../../fonts/FranklinGothicBookC.woff") format("woff"), url("../../fonts/FranklinGothicBookC.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'franklingothicbookcitalic';
+    src: url("../../fonts/FranklinGothicBookC-Italic.eot");
+    src: url("../../fonts/FranklinGothicBookC-Italic.eot?#iefix") format("embedded-opentype"), url("../../fonts/FranklinGothicBookC-Italic.woff2") format("woff2"), url("../../fonts/FranklinGothicBookC-Italic.woff") format("woff"), url("../../fonts/FranklinGothicBookC-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'franklingothicdemic';
+    src: url("../../fonts/franklingothicdemic-webfont.eot");
+    src: url("../../fonts/franklingothicdemic-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/franklingothicdemic-webfont.woff2") format("woff2"), url("../../fonts/franklingothicdemic-webfont.woff") format("woff"), url("../../fonts/franklingothicdemic-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'franklingothicmediumc';
+    src: url("../../fonts/FranklinGothicMediCondC.eot");
+    src: url("../../fonts/FranklinGothicMediCondC.eot?#iefix") format("embedded-opentype"), url("../../fonts/FranklinGothicMediCondC.woff2") format("woff2"), url("../../fonts/FranklinGothicMediCondC.woff") format("woff"), url("../../fonts/FranklinGothicMediCondC.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'franklingothicbook';
+    src: url("../../fonts/frabk.eot");
+    src: url("../../fonts/frabk.eot?#iefix") format("embedded-opentype"), url("../../fonts/frabk.woff2") format("woff2"), url("../../fonts/frabk.woff") format("woff"), url("../../fonts/frabk.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'franklingothicbookitalic';
+    src: url("../../fonts/frabkit.eot");
+    src: url("../../fonts/frabkit.eot?#iefix") format("embedded-opentype"), url("../../fonts/frabkit.woff2") format("woff2"), url("../../fonts/frabkit.woff") format("woff"), url("../../fonts/frabkit.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'franklingothicmedium';
+    src: url("../../fonts/framd.eot");
+    src: url("../../fonts/framd.eot?#iefix") format("embedded-opentype"), url("../../fonts/framd.woff2") format("woff2"), url("../../fonts/framd.woff") format("woff"), url("../../fonts/framd.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'franklingothicmedium';
+    src: url("../../fonts/framd.eot");
+    src: url("../../fonts/framd.eot?#iefix") format("embedded-opentype"), url("../../fonts/framd.woff2") format("woff2"), url("../../fonts/framd.woff") format("woff"), url("../../fonts/framd.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+* {
+    box-sizing: border-box
+}
+
+:focus::-webkit-input-placeholder {
+    color: transparent
+}
+
+:focus::-moz-placeholder {
+    color: transparent
+}
+
+:focus:-moz-placeholder {
+    color: transparent
+}
+
+:focus:-ms-input-placeholder {
+    color: transparent
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden
+}
+
+body {
+    line-height: 1.2
+}
+
+img {
+    max-width: 100%
+}
+
+a, a:hover, a:active, a:focus {
+    text-decoration: none;
+    border-color: transparent;
+    outline: 0
+}
+
+.cat-service-block-row .service-box {
+    margin: 0 53px
+}
+
+.clear {
+    clear: both
+}
+
+.pn-fixed {
+    position: fixed;
+    top: 65%;
+    right: 0;
+    width: 61px;
+    z-index: 150
+}
+
+#toTop {
+    position: relative;
+    display: block;
+    background: url(images/up.png) 50% 50% no-repeat;
+    text-align: center;
+    width: 61px;
+    height: 61px;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    border: 0;
+    outline: 0
+}
+
+#toTop:hover {
+    background: url(images/up_hover.png) 50% 50% no-repeat
+}
+
+p {
+    margin: 15px 15px 15px 0;
+    padding: 0;
+    color: #353535;
+    line-height: 1.5;
+    font-family: 'franklingothicbookc'
+}
+
+button {
+    outline: 0;
+    border: 0;
+    padding: 0
+}
+
+input.error {
+    background: #ffb0b0
+}
+
+.hidden {
+    display: none
+}
+
+.clearfix:after {
+    content: ' ';
+    display: block;
+    clear: both
+}
+
+.navig {
+    text-align: center
+}
+
+.navig > ul > li {
+    display: inline-block;
+    margin: 0 7px
+}
+
+.navig > ul > li > a {
+    color: #78191b;
+    font-size: 16px;
+    font-family: "franklingothicbookc", sans-serif;
+    text-decoration: underline
+}
+
+.navig > ul > li > a:hover {
+    text-decoration: none
+}
+
+.navig > ul > li > a.active {
+    text-decoration: none;
+    border: 2px solid #000;
+    padding: 2px 4px 2px 4px
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: 1023px
+    }
+
+    ul.container {
+        padding: 0;
+        width: 1023px;
+        margin: 0 auto
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-content {
+        min-height: calc(100vh - 220px);
+        padding-top: 90px
+    }
+}
+
+.general-heading {
+    text-align: center;
+    font-family: "franklingothicmedium", sans-serif;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 30px
+}
+
+h1 {
+    text-align: center;
+    font-family: "franklingothicmedium", sans-serif;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px
+}
+
+-image {
+    text-align: center
+}
+
+.opinion-info a:hover {
+    text-decoration: underline;
+    color: #78191b
+}
+
+.btn {
+    display: block;
+    border-radius: 4px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "franklingothicbookc", sans-serif;
+    font-size: 14px;
+    border: 0;
+    padding: 0;
+    width: 220px
+}
+
+.btn-white {
+    height: 36px;
+    line-height: 36px;
+    background: url("/bitrix/images/white-btn.png") repeat-x;
+    color: #0e0e0e
+}
+
+.btn-white:hover, .btn-white:active {
+    background: #fff;
+    color: #0e0e0e
+}
+
+.btn-red {
+    background: url("/bitrix/images/red-btn.png") repeat-x;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.btn-red:hover, .btn-red:active {
+    background: #c4292c;
+    color: #fff
+}
+
+.btn-black {
+    height: 42px;
+    background: url("/bitrix/images/black-btn.png") repeat-x;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.btn-black:hover, .btn-black:active {
+    background: #000;
+    color: #fff
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #0e0e0e;
+    resize: none;
+    padding: 10px;
+    font-family: "franklingothicbookc", sans-serif;
+    font-size: 16px;
+    color: #0e0e0e;
+    display: block
+}
+
+.form-comment {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #6d6d6d;
+    margin-top: 5px
+}
+
+.form-box {
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+input[type="text"] {
+    width: 100%;
+    border: 1px solid #0e0e0e;
+    padding: 0 10px;
+    font-family: "franklingothicbookc", sans-serif;
+    font-size: 16px;
+    color: #0e0e0e;
+    display: block;
+    height: 35px;
+    line-height: 35px
+}
+
+.form-bottom-text {
+    font-family: "franklingothicbookc", sans-serif;
+    color: #6d6d6d;
+    text-align: center;
+    font-size: 18px
+}
+
+.form-bottom-text .phone-text {
+    font-family: "franklingothicdemic", sans-serif;
+    color: #000;
+    font-weight: bold
+}
+
+.form-bottom-text .phone-text span {
+    font-size: 24px
+}
+
+.close {
+    width: 53px;
+    height: 53px;
+    background: url("/bitrix/images/popup-close.png") no-repeat;
+    position: absolute;
+    top: -10px;
+    right: -10px
+}
+
+.suc-head {
+    font-family: "franklingothicdemic", sans-serif;
+    font-size: 27px;
+    color: #c4292c;
+    letter-spacing: 1px;
+    margin: 41px 0 0 0
+}
+
+.btn-more-pr {
+    display: block;
+    border-radius: 4px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "franklingothicbookc", sans-serif;
+    font-size: 14px;
+    border: 0;
+    padding: 0;
+    width: 220px;
+    height: 42px;
+    background: url("/bitrix/images/black-btn.png") repeat-x;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.btn-more-pr:hover {
+    cursor: pointer
+}
+
+.suc-text {
+    font-family: "franklingothicbookc", sans-serif;
+    font-size: 21px;
+    margin: 12px 0 0 0
+}
+
+.suc-close {
+    display: block;
+    border-radius: 4px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "franklingothicbookc", sans-serif;
+    font-size: 14px;
+    border: 0;
+    padding: 0;
+    width: 135px;
+    background: url("/bitrix/images/red-btn.png") repeat-x;
+    color: #fff;
+    margin: 74px auto 8px auto
+}
+
+.suc-close:hover {
+    cursor: pointer;
+    background: #c4292c
+}
+
+.modal-content {
+    border: 2px solid #c4292c;
+    border-radius: 4px;
+    padding: 0 15px 20px 15px
+}
+
+.modal-content .btn-black, .modal-content .btn-red {
+    margin: 20px auto
+}
+
+.modal-content .form-bottom-text span.phone-text {
+    display: block;
+    color: #c4292c
+}
+
+.page-nav ul > li span:hover {
+    cursor: default
+}
+
+.modal-header {
+    font-family: "franklingothicbookc", sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+    padding: 30px 0 20px 0;
+    border-bottom: 0
+}
+
+.modal-header span {
+    font-weight: bold;
+    display: block
+}
+
+.page-nav ul > li:hover ul {
+    display: block
+}
+
+.mobile-top {
+    width: 100%;
+    height: 64px;
+    background: #c4292c;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100
+}
+
+.mobile-top .btn-white {
+    float: right;
+    width: 180px;
+    margin-top: 13px;
+    font-size: 12px;
+    margin: 13px 35px 0 0
+}
+
+@media (min-width: 767px) {
+    .mobile-top .btn-white .btn-black {
+        margin: 13px 15px 0 0
+    }
+}
+
+.navbar {
+    float: left;
+    width: 64px;
+    height: 65px;
+    display: block;
+    margin: -1px 0 0 0;
+    background: url("/bitrix/images/navbar.png") no-repeat;
+    border: 0;
+    padding: 0;
+    border-bottom: 1px solid #f6f6f6
+}
+
+.nav-close {
+    float: right;
+    width: 55px;
+    height: 63px;
+    background: url("/bitrix/images/mobile-close.png") 50% 50% no-repeat
+}
+
+.page-nav {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 25px 0 20px 0;
+    position: fixed;
+    top: 64px;
+    z-index: 99
+}
+
+@media (min-width: 1024px) {
+    .page-nav {
+        position: absolute;
+        background: #c4292c;
+        height: auto;
+        top: 220px;
+        padding: 0;
+        -webkit-box-shadow: 0 5px 5px 0 #f6f6f6;
+        -moz-box-shadow: 0 5px 5px 0 #f6f6f6;
+        box-shadow: 0 5px 5px 0 #f6f6f6;
+        display: block !important
+    }
+
+    .page-nav ul > li.act {
+        background: #78191b
+    }
+}
+
+.page-nav.nav-fixed {
+    position: fixed;
+    top: 0
+}
+
+.page-nav ul > li {
+    position: relative
+}
+
+.page-nav ul > li ul {
+    display: none;
+    padding: 15px 0
+}
+
+@media (min-width: 1024px) {
+    .page-nav ul > li ul {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 50px;
+        padding: 0
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-nav ul > li ul li {
+        color: #fff;
+        background: #78191b;
+        width: 283px
+    }
+}
+
+.page-nav ul > li ul li a {
+    font-size: 18px;
+    color: #c4292c
+}
+
+@media (min-width: 1024px) {
+    .page-nav ul > li ul li a {
+        text-align: left;
+        color: #fff;
+        font-size: 16px
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-nav ul > li ul li a:hover {
+        background: #ce4d51;
+        font-size: 16px
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-nav ul > li:hover {
+        background: #78191b
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-nav ul > li:hover ul {
+        display: block
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-nav ul > li {
+        float: left
+    }
+}
+
+.page-nav ul > li a {
+    display: block;
+    font-family: "franklingothicbookc", sans-serif;
+    font-size: 24px;
+    color: #000;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid #f6f6f6
+}
+
+@media (min-width: 1024px) {
+    .page-nav ul > li a {
+        color: #fff;
+        border-bottom: 0;
+        padding: 0 36px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px
+    }
+
+    .page-nav ul > li span {
+        display: block;
+        font-family: "franklingothicbookc", sans-serif;
+        color: #fff;
+        border-bottom: 0;
+        padding: 0 30px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px
+    }
+}
+
+.page-nav ul > li span:hover {
+    cursor: default
+}
+
+.page-nav ul > li a:hover, .page-nav ul > li a:active {
+    color: #c4292c;
+    text-decoration: none
+}
+
+@media (min-width: 1024px) {
+    .page-nav ul > li a:hover, .page-nav ul > li a:active {
+        color: #fff;
+        background: #78191b
+    }
+}
+
+.page-nav ul > li:last-child a {
+    border-bottom: 0
+}
+
+.page-header {
+    padding: 65px 15px 20px 15px;
+    margin: 0 auto 20px auto;
+    position: relative;
+    border-bottom: 5px solid #c4292c
+}
+
+@media (min-width: 767px) {
+    .page-header {
+        height: 360px
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-header {
+        height: 220px;
+        padding: 10px 15px 20px 15px;
+        flex-wrap: nowrap;
+        border-bottom: 0
+    }
+}
+
+.header-logo {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    display: block
+}
+
+@media (min-width: 767px) {
+    .header-logo {
+        position: absolute;
+        top: 65px;
+        left: 0;
+        width: 30%;
+        margin: 0 0 0 20px
+    }
+}
+
+@media (min-width: 1024px) {
+    .header-logo {
+        position: static;
+        float: left;
+        width: 220px;
+        margin: 0
+    }
+}
+
+.header-logo img {
+    display: block;
+    margin: 0 auto
+}
+
+.header-logo span {
+    padding: 10px 0 0 0;
+    display: block;
+    font-family: "rodchenkoctt", sans-serif;
+    color: #858585;
+    font-size: 22px
+}
+
+.page-heading {
+    color: #0e0e0e;
+    text-align: center;
+    line-height: 1.2
+}
+
+@media (min-width: 767px) {
+    .page-heading {
+        position: absolute;
+        top: 65px;
+        right: 0;
+        width: 70%;
+        margin: 55px 0 0 0
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-heading {
+        position: static;
+        float: left;
+        width: 445px;
+        margin: 30px 0 0 0
+    }
+}
+
+.page-heading h1 {
+    font-family: "franklingothicdemic", sans-serif;
+    font-size: 22px;
+    font-weight: bold
+}
+
+@media (min-width: 767px) {
+    .page-heading h1 {
+        font-size: 35px;
+        float: right;
+        margin: 0 20px 0 0
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-heading h1 {
+        font-size: 30px;
+        float: none;
+        margin: 0
+    }
+}
+
+.page-heading span {
+    display: block;
+    font-size: 28px;
+    font-weight: normal;
+    font-family: "franklingothicdemic", sans-serif;
+    font-weight: bold
+}
+
+@media (min-width: 767px) {
+    .page-heading span {
+        font-size: 32px
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-heading span {
+        font-size: 30px
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-heading .btn-black {
+        font-size: 13px;
+        width: 201px;
+        margin-top: 37px
+    }
+}
+
+@media (min-width: 767px) {
+    .header-contacts {
+        position: absolute;
+        top: 260px;
+        width: 100%
+    }
+}
+
+@media (min-width: 1024px) {
+    .header-contacts {
+        position: static;
+        float: left;
+        width: 280px;
+        display: block;
+        border-left: 1px solid #c4292c;
+        height: 150px;
+        margin: 30px 0 0 0;
+        padding: 0 0 0 20px
+    }
+}
+
+.header-contacts-separate1 {
+    margin: 15px auto 0 auto
+}
+
+@media (min-width: 767px) {
+    .header-contacts-separate1 {
+        width: 50%;
+        margin: 10px 0 0 0;
+        float: left
+    }
+}
+
+@media (min-width: 1024px) {
+    .header-contacts-separate1 {
+        margin: 0;
+        width: auto;
+        float: none
+    }
+}
+
+@media (min-width: 767px) {
+    .header-contacts-separate2 {
+        width: 50%;
+        margin: 10px 0 0 0;
+        float: left
+    }
+}
+
+@media (min-width: 1024px) {
+    .header-contacts-separate2 {
+        width: auto;
+        float: none
+    }
+}
+
+.call-us {
+    font-family: "franklingothicbookc", sans-serif;
+    font-size: 16px;
+    color: #0e0e0e;
+    margin: 0 0 20px 0;
+    text-align: center
+}
+
+@media (min-width: 767px) {
+    .call-us {
+        margin: 0 0 10px 0
+    }
+}
+
+.header-phone, .header-mail, .header-address, .header-vk {
+    padding: 0 0 0 30px;
+    height: 20px;
+    line-height: 20px;
+    font-family: "franklingothicbookc", sans-serif;
+    font-size: 16px;
+    margin: 0 auto 10px auto;
+    display: block;
+    width: 250px
+}
+
+.header-address a {
+    color: #c4292c;
+    text-decoration: none
+}
+
+.header-vk a {
+    color: #c4292c;
+    text-decoration: none
+}
+
+h3 {
+    text-align: center;
+    font-family: "franklingothicmedium", sans-serif;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 30px
+}
+
+.map {
+    margin: 30px 0 0 0
+}
+
+.header-address a:hover {
+    text-decoration: underline
+}
+
+.header-vk a:hover {
+    text-decoration: underline
+}
+
+#feedback .btn {
+    margin: 22px auto
+}
+
+.header-phone {
+    color: #0e0e0e;
+    background: url("/bitrix/images/phone.png") 5px 3px no-repeat;
+    font-weight: bold
+}
+
+@media (min-width: 1024px) {
+    .header-phone {
+        margin: 20px 0 0 0
+    }
+}
+
+.header-phone span {
+    font-size: 18px;
+    font-family: "franklingothicdemic", sans-serif
+}
+
+.header-phone:hover, .header-phone:active {
+    cursor: default;
+    color: #0e0e0e
+}
+
+.header-mail {
+    background: url("/bitrix/images/mail.png") 0 4px no-repeat;
+    color: #c4292c
+}
+
+.header-mail:hover, .header-mail:active {
+    text-decoration: underline;
+    color: #c4292c
+}
+
+.header-address {
+    background: url("/bitrix/images/point.png") 0 0 no-repeat;
+    color: #c4292c
+}
+
+.header-vk {
+    background: url("/bitrix/images/vk.png") 0 0 no-repeat;
+    color: #c4292c
+}
+
+.breadcrumbs ul li {
+    float: left;
+    font-family: "franklingothicmedium", sans-serif;
+    padding: 0 20px 0 5px;
+    background: url("/bitrix/images/red-goto.png") 100% 50% no-repeat
+}
+
+.breadcrumbs ul li:last-child {
+    background: 0
+}
+
+.breadcrumbs ul li a {
+    color: #78191b;
+    border-bottom: 1px solid #78191b;
+    padding: 0 0 1px 0;
+    display: block
+}
+
+a.B_currentCrumb {
+    border-bottom: 1px solid #fff !important
+}
+
+.breadcrumbs ul li a:hover {
+    border-bottom: 1px solid transparent
+}
+
+.service-block {
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+@media (min-width: 1024px) {
+    .service-block {
+        padding-bottom: 60px
+    }
+}
+
+.service-box {
+    position: relative;
+    margin: 0 0 20px 0
+}
+
+@media (min-width: 1024px) {
+    .service-box {
+        padding-top: 30px;
+        border: 2px solid #555;
+        border-radius: 4px;
+        width: 400px;
+        height: 300px;
+        margin: 0 0 0 30px
+    }
+}
+
+.service-box a {
+    display: block;
+    text-decoration: none
+}
+
+@media (min-width: 1024px) {
+    .service-box.for-business {
+        border: 2px solid #78191b;
+        margin: 0 0 0 140px
+    }
+}
+
+.service-box.for-business .service-box-heading {
+    color: #78191b
+}
+
+.service-box-heading {
+    font-family: "franklingothicbookc", sans-serif;
+    text-transform: uppercase;
+    color: #0e0e0e;
+    position: absolute;
+    top: 50%;
+    width: 230px;
+    text-align: center;
+    margin: -20px 0 0 -115px;
+    left: 50%;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    border-radius: 4px
+}
+
+@media (min-width: 1024px) {
+    .service-box-heading {
+        top: 0;
+        background: #fff;
+        font-size: 24px;
+        width: 300px;
+        margin: -20px 0 0 -150px
+    }
+}
+
+.service-box-image img {
+    display: block;
+    margin: 0 auto
+}
+
+@media (min-width: 1024px) {
+    .service-box-image img {
+        filter: url("data:image/svg+xml;utf8,<svgxmlns='http://www.w3.org/2000/svg'><filterid='grayscale'><feColorMatrixtype='matrix'values='0.33330.33330.3333000.33330.33330.3333000.33330.33330.33330000010'/></filter></svg>#grayscale");
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        filter: grayscale(100%);
+        filter: gray;
+        transition: 1s;
+        max-width: none;
+        margin: 0 0 0 -30px
+    }
+}
+
+@media (min-width: 1024px) {
+    .service-box-image img:hover {
+        -webkit-filter: none;
+        -moz-filter: none;
+        -ms-filter: none;
+        filter: none
+    }
+}
+
+.guarantee-block {
+    background: url("/bitrix/images/grey-repeat.png");
+    padding: 0 0 20px 0
+}
+
+@media (min-width: 1024px) {
+    .guarantee-block {
+        padding: 0 0 30px 0;
+        height: 460px
+    }
+}
+
+.guarantee-block-heading {
+    background: url("/bitrix/images/heading-label.png") 50% 50% no-repeat;
+    background-size: cover;
+    width: 355px;
+    height: 114px;
+    max-width: 100%;
+    margin: 0 auto 20px auto;
+    font-family: "franklingothicdemic", sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0 0 0;
+    font-size: 36px
+}
+
+@media (min-width: 767px) {
+    .guarantee-block-heading {
+        margin: 0 auto 70px auto
+    }
+}
+
+.guarantee-block-heading span {
+    display: block;
+    font-family: "franklingothicbook", sans-serif;
+    font-size: 28px
+}
+
+.guarantee-box {
+    text-align: center;
+    margin: 0 0 20px 0
+}
+
+.guarantee-image img {
+    margin: 0 0 0 30px
+}
+
+@media (min-width: 767px) {
+    .guarantee-image img {
+        height: 100px;
+        margin: 0 0 0 43px
+    }
+}
+
+@media (min-width: 1024px) {
+    .guarantee-image img {
+        height: 135px;
+        margin: 0 0 0 25px
+    }
+}
+
+.guarantee-image img.free-img {
+    margin: 0 0 0 80px
+}
+
+@media (min-width: 767px) {
+    .guarantee-image img.free-img {
+        margin: 0 0 0 15px;
+        max-width: none
+    }
+}
+
+.guarantee-heading {
+    font-family: "franklingothicbookc", sans-serif;
+    font-size: 16px;
+    width: 190px;
+    margin: 10px auto 0 auto;
+    line-height: 1.4
+}
+
+.consult-block {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 10px solid #78191b
+}
+
+.consult-block.consult-catalog {
+    background: url("/bitrix/images/grey-repeat.png");
+    border-top: 0
+}
+
+.consult-block-heading {
+    font-family: "franklingothicmedium", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: bold
+}
+
+.consult-block-heading span {
+    font-weight: normal;
+    display: block
+}
+
+@media (min-width: 767px) {
+    .consult-block-heading {
+        font-size: 30px;
+        padding: 20px 0 30px 0
+    }
+}
+
+.consult-block .form-bottom-text {
+    margin: 20px 0 0 0
+}
+
+@media (min-width: 1024px) {
+    .consult-block .form-bottom-text {
+        margin: 40px 0
+    }
+}
+
+@media (min-width: 767px) {
+    .consult-box {
+        border: 2px solid #c4292c;
+        border-radius: 10px
+    }
+}
+
+.consult-free {
+    padding: 20px 15px 40px 15px;
+    background-color: #fff;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px
+}
+
+.consult-free-heading {
+    color: #c4292c;
+    text-transform: uppercase;
+    padding: 0 0 20px 0;
+    font-size: 18px;
+    font-family: "franklingothicmedium", sans-serif
+}
+
+@media (min-width: 1024px) {
+    .consult-free-heading {
+        text-align: center;
+        font-size: 24px;
+        padding: 10px 0 60px 0
+    }
+}
+
+.consult-free ul li {
+    padding: 0 0 20px 65px;
+    font-family: "franklingothicbookc", sans-serif
+}
+
+@media (min-width: 1024px) {
+    .consult-free ul li {
+        padding: 0 0 30px 65px
+    }
+}
+
+.consult-free ul li.analisys {
+    background: url("/bitrix/images/loupe.png") 0 0 no-repeat
+}
+
+.consult-free ul li.perspective {
+    background: url("/bitrix/images/oldpen.png") 0 0 no-repeat
+}
+
+.consult-free ul li.variants {
+    background: url("/bitrix/images/list.png") 0 0 no-repeat
+}
+
+.consult-free ul li .consult-name {
+    font-weight: bold;
+    height: 55px;
+    padding-top: 5px;
+    line-height: 1.4
+}
+
+@media (min-width: 767px) {
+    .consult-free ul li .consult-name {
+        height: auto
+    }
+}
+
+@media (min-width: 1024px) {
+    .consult-free ul li .consult-name {
+        border-top-left-radius: 0;
+        padding-top: 0
+    }
+}
+
+.consult-free ul li.variants .consult-name {
+    padding-top: 10px
+}
+
+@media (min-width: 767px) {
+    .consult-free ul li.variants .consult-name {
+        height: auto;
+        padding-top: 5px
+    }
+}
+
+@media (min-width: 1024px) {
+    .consult-free ul li.variants .consult-name {
+        padding-top: 0
+    }
+}
+
+.consult-free ul li .consult-text {
+    margin: 0 0 0 -60px;
+    color: #6d6d6d;
+    line-height: 1.4
+}
+
+@media (min-width: 767px) {
+    .consult-free ul li .consult-text {
+        margin: 0
+    }
+}
+
+.consult-form {
+    border-radius: 0 8px 8px 0;
+    height: 476px
+}
+
+@media (min-width: 1024px) {
+    .consult-form {
+        padding: 0;
+        background: #f6f6f6
+    }
+}
+
+.consult-form-header {
+    color: #d43f42;
+    padding: 15px 0;
+    font-family: "franklingothicdemic", sans-serif;
+    font-size: 21px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px
+}
+
+@media (min-width: 767px) {
+    .consult-form-header {
+        background: #d43f42;
+        color: #fff
+    }
+}
+
+@media (min-width: 1024px) {
+    .consult-form-header {
+        border-top-left-radius: 0;
+        padding: 25px 0
+    }
+}
+
+.consult-form-header span {
+    font-weight: bold
+}
+
+.consult-form .btn-red {
+    margin: 13px auto 0 auto
+}
+
+.form-box {
+    margin-top: 20px
+}
+
+.consult-textarea {
+    height: 125px;
+    width: 100%;
+    max-width: none
+}
+
+.how-block {
+    background: url("/bitrix/images/justice-back.jpg") 50% 50% no-repeat;
+    background-size: cover
+}
+
+@media (max-width: 1024px) {
+    .cat-service-block-row .service-box {
+        margin: 0 53px 30px 53px
+    }
+
+    .page-nav ul > li span {
+        display: block;
+        font-family: "franklingothicbookc", sans-serif;
+        color: #fff;
+        border-bottom: 0;
+        padding: 0 36px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px
+    }
+}
+
+}
+@media (max-width: 1023px) {
+    .catalog-box-name {
+        margin: 0 !important
+    }
+}
+
+@media (max-width: 1023px) {
+    .page-nav ul > li span {
+        display: block;
+        font-family: "franklingothicbookc", sans-serif;
+        font-size: 19px;
+        color: #90282a;
+        padding: 10px 0;
+        text-align: center;
+        border-bottom: 1px solid #f6f6f6
+    }
+}
+
+@media (min-width: 767px) {
+    .how-block .tablet-red {
+        background: rgba(120, 25, 27, 0.5)
+    }
+}
+
+@media (min-width: 1024px) {
+    .how-block .tablet-red {
+        background: 0
+    }
+}
+
+.how-block-heading {
+    background: #78191b;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-family: "franklingothicdemic", sans-serif;
+    font-size: 30px;
+    border-radius: 4px
+}
+
+@media (min-width: 767px) {
+    .how-block-heading {
+        padding: 25px
+    }
+}
+
+.how-box {
+    color: #fff;
+    padding: 20px 10px;
+    height: 450px;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+@media (min-width: 767px) {
+    .how-box {
+        background: 0
+    }
+}
+
+@media (max-width: 359px) {
+    .how-box {
+        padding: 0 10px
+    }
+}
+
+@media (min-width: 1024px) {
+    .how-box {
+        background: rgba(0, 0, 0, 0.5)
+    }
+}
+
+.how-box-red {
+    background: rgba(120, 25, 27, 0.5)
+}
+
+@media (min-width: 767px) {
+    .how-box-red {
+        background: 0
+    }
+}
+
+@media (min-width: 1024px) {
+    .how-box-red {
+        background: rgba(120, 25, 27, 0.5)
+    }
+}
+
+@media (min-width: 767px) {
+    .how-box-last {
+        float: none;
+        clear: both;
+        margin: 0 auto
+    }
+}
+
+@media (min-width: 1024px) {
+    .how-box-last {
+        float: left;
+        clear: none;
+        margin: 0
+    }
+}
+
+.how-box-heading {
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase
+}
+
+.how-box .how-short {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 0;
+    font-style: italic
+}
+
+@media (min-width: 767px) {
+    .how-box .how-short {
+        height: 60px
+    }
+}
+
+@media (min-width: 1024px) {
+    .how-box .how-short {
+        padding: 10px 25px
+    }
+}
+
+.how-box .btn {
+    margin: 0 auto
+}
+
+.how-box .how-number {
+    background: url("/bitrix/images/number-stripes.png") 50% 50% no-repeat;
+    position: relative;
+    height: 60px
+}
+
+.how-box .how-number span {
+    background: #c4292c;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 60px;
+    font-family: "franklingothicbook", sans-serif;
+    font-size: 40px
+}
+
+.how-box .how-list {
+    padding: 20px 0
+}
+
+.how-box .how-list li {
+    padding: 0 0 10px 15px;
+    background: url("/bitrix/images/white-dot.png") 0 7px no-repeat;
+    font-family: "franklingothicbook", sans-serif;
+    font-size: 18px
+}
+
+.practice-block {
+    padding: 20px 0
+}
+
+.practice-block-heading {
+    font-family: "franklingothicmedium", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 0 0 20px 0;
+    font-weight: bold
+}
+
+@media (min-width: 767px) {
+    .practice-block-heading {
+        padding: 20px 0;
+        background: url("/bitrix/images/heading-repeat.png") 0 50% repeat-x
+    }
+}
+
+@media (min-width: 1024px) {
+    .practice-block-heading {
+        padding: 40px 0 40px 0
+    }
+}
+
+.practice-block-heading span {
+    background: #fff;
+    padding: 0 15px
+}
+
+.practice-block .btn {
+    margin-top: 20px
+}
+
+.practice-block .case-box:nth-child(even) {
+    float: right
+}
+
+.case-box {
+    border-radius: 4px;
+    margin: 0 0 20px 0;
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    -webkit-box-shadow: 0 0 8px 0 #b2b2b2;
+    -moz-box-shadow: 0 0 8px 0 #b2b2b2;
+    box-shadow: 0 0 8px 0 #b2b2b2;
+    float: left;
+    display: inline-block;
+    vertical-align: bottom
+}
+
+@media (min-width: 1024px) {
+    .case-box {
+        width: 455px;
+        margin: 0 15px 20px 15px
+    }
+}
+
+.case-box:after {
+    content: ' ';
+    display: block;
+    clear: both
+}
+
+.case-label {
+    font-family: "franklingothicbookc", sans-serif;
+    background: #c4292c;
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+    font-size: 14px;
+    width: 110px;
+    position: absolute;
+    top: 0;
+    right: 10px
+}
+
+.case-label span {
+    font-family: "franklingothicmediumc", sans-serif;
+    font-weight: bold
+}
+
+.case-heading {
+    font-family: "franklingothicmediumc", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 2px solid #f6f6f6;
+    padding: 15px 0;
+    font-weight: bold
+}
+
+@media (min-width: 1024px) {
+    .case-heading {
+        text-align: left;
+        margin: 0 0 0 40px;
+        padding: 15px 0 5px 10px
+    }
+}
+
+.case-list {
+    padding: 20px 0
+}
+
+@media (min-width: 1024px) {
+    .case-list {
+        padding: 10px 0 20px 0
+    }
+}
+
+.case-list .case-item {
+    padding: 20px 0 10px 50px;
+    color: #0e0e0e;
+    font-family: "franklingothicbookc", sans-serif;
+    line-height: 1.4
+}
+
+.case-list .case-item a {
+    color: #6d6d6d;
+    border-bottom: 1px dashed #6d6d6d
+}
+
+.case-list .case-item a:hover {
+    border-bottom: 0;
+    text-decoration: none
+}
+
+.case-list .case-item:after {
+    content: ' ';
+    display: block;
+    clear: both
+}
+
+.case-list .case-item-name {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 0 10px 0;
+    color: #78191b
+}
+
+.case-list .case-item-text {
+    font-size: 14px;
+    line-height: 1.4;
+    padding: 0 0 10px 0
+}
+
+.case-list .case-item-text:after {
+    content: ' ';
+    display: block;
+    clear: both
+}
+
+.case-list .case-item-text ul li {
+    padding: 0 0 10px 15px;
+    background: url("/bitrix/images/list-dot.png") 0 7px no-repeat
+}
+
+.case-list .case-item-more {
+    display: block;
+    float: right;
+    margin: 5px 0 0 0;
+    height: 20px;
+    font-size: 14px
+}
+
+@media (min-width: 767px) {
+    .case-list .case-item-more {
+        float: right
+    }
+}
+
+@media (min-width: 1024px) {
+    .case-list .case-item-more {
+        float: right
+    }
+}
+
+.case-list .case-item.case-problem {
+    background: url("/bitrix/images/question.png") 8px 20px no-repeat;
+    font-size: 14px
+}
+
+.case-list .case-item.case-work {
+    background: url("/bitrix/images/scheme.png") 0 20px no-repeat
+}
+
+.case-list .case-item.case-decision {
+    background: url("/bitrix/images/ogogo.png") 10px 20px no-repeat
+}
+
+.case-list .case-item.case-result {
+    background: url("/bitrix/images/thumb-up.png") 0 20px no-repeat
+}
+
+.case-list .case-item.case-feedback {
+    background: url("/bitrix/images/feedback.png") 0 20px no-repeat
+}
+
+.case-list .case-item-hidden {
+    display: none
+}
+
+.case-target {
+    float: right;
+    font-family: "franklingothicbookc", sans-serif;
+    color: #6d6d6d;
+    font-style: italic
+}
+
+.pavel-block {
+    padding-top: 40px;
+    padding-bottom: 45px
+}
+
+@media (min-width: 1024px) {
+    .pavel-block {
+        padding-top: 60px
+    }
+}
+
+.pavel-box {
+    border-radius: 4px;
+    border-top: 10px solid #c4292c;
+    border-bottom: 1px solid #c4292c;
+    border-left: 1px solid #c4292c;
+    border-right: 1px solid #c4292c;
+    padding: 0 0 30px 0
+}
+
+.pavel-image {
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    .pavel-image {
+        margin: 40px 0 0 0;
+        padding-left: 30px;
+    }
+}
+
+.pavel-info {
+    margin: 20px 0 0 0;
+    color: #0e0e0e;
+    line-height: 1.4;
+    font-family: "franklingothicbookc", sans-serif;
+    padding: 15px 30px 0 30px
+}
+
+.pavel-info .btn {
+    margin: 0 auto
+}
+
+@media (min-width: 767px) {
+    .pavel-info .btn {
+        margin: 0
+    }
+}
+
+.pavel-header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #0e0e0e
+}
+
+.pavel-heading {
+    font-family: "franklingothicmediumc", sans-serif;
+    color: #c4292c;
+    font-size: 24px;
+    margin: 0 15px 15px 0
+}
+
+.pavel-about {
+    font-style: italic;
+    color: #6d6d6d
+}
+
+@media (min-width: 1024px) {
+    .pavel-about {
+        width: 370px
+    }
+}
+
+.pavel-text {
+    padding: 15px 0;
+    display: none
+}
+
+@media (min-width: 1024px) {
+    .pavel-text {
+        padding: 15px 0 40px 0
+    }
+}
+
+.opinions-block {
+    background: url("/bitrix/images/grey-repeat.png");
+    padding: 0 0 40px 0
+}
+
+.opinions-block-heading {
+    font-family: "franklingothicmedium", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    padding: 20px 0
+}
+
+@media (min-width: 767px) {
+    .opinions-block-heading {
+        background: url("/bitrix/images/heading-repeat.png") 0 50% repeat-x
+    }
+}
+
+@media (min-width: 1024px) {
+    .opinions-block-heading {
+        padding: 40px 0
+    }
+}
+
+.opinions-block-heading span {
+    background: url("/bitrix/images/grey-repeat.png");
+    padding: 0 15px
+}
+
+.opinion-box {
+    padding: 15px 0;
+    text-align: center
+}
+
+@media (min-width: 767px) {
+    .opinion-box {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: nowrap;
+        -moz-flex-flow: nowrap;
+        -ms-flex-flow: nowrap;
+        flex-flow: nowrap
+    }
+}
+
+.opinion-box img {
+    width: 130px;
+    height: 130px;
+    margin-top: 7px
+}
+
+@media (min-width: 767px) {
+    .opinion-box img {
+        min-width: 130px
+    }
+}
+
+.opinions-block .opinion-box:first-of-type .opinion-info {
+    background: url("/bitrix/images/sepor.png") 0 100% no-repeat
+}
+
+.new-date {
+    display: block;
+    margin: 0 0 9px 0;
+    color: #6d6d6d;
+    font-size: 15px;
+    font-family: "franklingothicbookc", sans-serif
+}
+
+.new-img {
+    display: inline-block;
+    float: left;
+    padding: 0 21px 0 0
+}
+
+.new-back {
+    margin: 21px 0 0 0
+}
+
+.new-back > a {
+    margin: 15px 0 0 0;
+    color: #78191b;
+    border-bottom: 1px solid #78191b
+}
+
+.new-back > a:hover {
+    border-bottom: 1px solid transparent
+}
+
+.new-back nobr {
+    background: url("/bitrix/images/red-goto.png") 100% 50% no-repeat;
+    width: 15px;
+    height: 10px;
+    display: inline-block;
+    margin: 0 6px 0 0;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(18deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg)
+}
+
+.opinion-info {
+    text-align: left;
+    font-family: "franklingothicbookc", sans-serif;
+    margin: 15px 0 0 0;
+    padding: 0 0 20px 0;
+    line-height: 1.4
+}
+
+.opinion-info > span {
+    display: block;
+    margin: 0 0 9px 15px;
+    color: #6d6d6d;
+    font-size: 15px
+}
+
+@media (min-width: 767px) {
+    .opinion-info {
+        margin: 0 0 0 30px
+    }
+}
+
+.opinion-name {
+    color: #78191b;
+    padding: 0 0 10px 15px;
+    font-size: 20px;
+    text-align: left
+}
+
+.opinion-text {
+    font-size: 16px;
+    margin: 0 0 15px 15px
+}
+
+.to-original {
+    margin: 0 0 0 15px;
+    padding: 0 20px 0 0;
+    background: url("/bitrix/images/red-goto.png") 100% 50% no-repeat;
+    color: #78191b;
+    border-bottom: 1px dashed #78191b;
+    display: inline-block
+}
+
+.to-original:hover {
+    color: #78191b;
+    border-bottom: 1px solid transparent
+}
+
+.about-block {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: Arial, sans-serif
+}
+
+@media (min-width: 767px) {
+    .about-block img {
+        display: block;
+        float: right;
+        margin: 0 0 20px 20px
+    }
+}
+
+.about-block-heading {
+    font-family: "franklingothicmedium", sans-serif;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px;
+    padding: 0 0 20px 0;
+    margin: 15px 15px 15px 15px
+}
+
+@media (min-width: 767px) {
+    .about-block-heading {
+        text-align: left
+    }
+}
+
+.about-block-heading span {
+    color: #78191b;
+    font-size: 36px;
+    display: block
+}
+
+@media (min-width: 767px) {
+    .about-block-heading span {
+        display: inline
+    }
+}
+
+.about-block p {
+    text-align: left;
+    padding: 0 0 20px 0
+}
+
+.about-block span {
+    color: #78191b
+}
+
+.about-block ul {
+    margin: -15px 0 0 0
+}
+
+.about-block ul li {
+    text-align: left;
+    padding: 0 0 10px 15px;
+    background: url("/bitrix/images/list-dot.png") 0 12px no-repeat;
+    color: #353535;
+    line-height: 1.5;
+    font-family: 'franklingothicbookc'
+}
+
+.page-footer {
+    background: url("/bitrix/images/red-repeat.png");
+    color: #fff;
+    padding: 0 0 30px 0
+}
+
+.page-footer:after {
+    content: ' ';
+    display: table;
+    clear: both
+}
+
+@media (min-width: 767px) {
+    .page-footer {
+        height: 320px
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-footer {
+        padding: 0;
+        height: 220px
+    }
+}
+
+@media (min-width: 767px) {
+    .page-footer .container {
+        padding-top: 20px;
+        position: relative
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-footer .container {
+        padding-top: 0;
+        margin: 0 auto
+    }
+}
+
+.page-footer .btn {
+    margin: 0 auto
+}
+
+.footer-props {
+    margin: 20px 0 0 0
+}
+
+@media (min-width: 767px) {
+    .footer-props {
+        width: 50%;
+        position: absolute;
+        top: 20px;
+        right: 0
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer-props {
+        top: 10px;
+        left: 520px;
+        width: 320px
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer-props .btn-white {
+        margin: 0
+    }
+}
+
+.footer-phone, .footer-mail, .footer-address {
+    padding: 0 0 0 35px;
+    height: 25px;
+    line-height: 25px;
+    font-family: "franklingothicbookc", sans-serif;
+    font-size: 16px;
+    margin: 15px auto 0 auto;
+    display: block;
+    width: 250px
+}
+
+.footer-address a {
+    color: #fff;
+    text-decoration: none
+}
+
+.footer-address a:hover {
+    text-decoration: underline
+}
+
+@media (min-width: 1024px) {
+    .footer-phone, .footer-mail, .footer-address {
+        margin: 15px 0 0 0
+    }
+}
+
+.footer-phone {
+    color: #fff;
+    background: url("/bitrix/images/white-phone.png") 0 0 no-repeat
+}
+
+@media (min-width: 767px) {
+    .footer-phone {
+        margin: 40px auto 0 auto
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer-phone {
+        margin: 15px 0 0 0
+    }
+}
+
+.footer-phone span {
+    font-size: 18px;
+    font-family: "franklingothicdemic", sans-serif
+}
+
+.footer-phone:hover {
+    color: #fff;
+    cursor: default
+}
+
+.footer-mail {
+    background: url("/bitrix/images/white-mail.png") 0 3px no-repeat;
+    color: #fff
+}
+
+.footer-mail:hover {
+    color: #fff;
+    text-decoration: underline
+}
+
+.footer-address {
+    background: url("/bitrix/images/white-pointer.png") 2px 0 no-repeat
+}
+
+.footer-owner {
+    margin: 20px 0 0 0
+}
+
+@media (min-width: 767px) {
+    .footer-owner {
+        width: 50%;
+        position: absolute;
+        top: 20px;
+        left: 0
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer-owner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
+        width: 490px
+    }
+}
+
+.footer-logo {
+    text-align: center
+}
+
+@media (min-width: 1024px) {
+    .footer-logo {
+        float: left;
+        width: 150px;
+        height: 220px;
+        background: #c4292c
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer-logo img {
+        display: block;
+        margin: 90px auto 0 auto
+    }
+}
+
+.footer-c {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    width: 243px;
+    margin: 15px auto 0 auto;
+    line-height: 1.6
+}
+
+@media (min-width: 767px) {
+    .footer-c {
+        width: 230px
+    }
+
+    .privacy_policy {
+        margin: 218px auto 0
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer-c {
+        float: left;
+        margin: 90px 0 0 20px
+    }
+}
+
+.footer-creator {
+    margin: 20px 0 0 0;
+    height: 22px;
+    width: 280px;
+    margin: 30px auto
+}
+
+@media (min-width: 767px) {
+    .footer-creator {
+        position: absolute;
+        top: 270px;
+        left: 50%;
+        margin: 0 0 0 -140px
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer-creator {
+        top: 80px;
+        left: 825px;
+        width: auto;
+        margin: 0
+    }
+}
+
+.made-by {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.orelss {
+    background: url("/bitrix/images/creator.png") 0 0 no-repeat;
+    width: 129px;
+    height: 20px;
+    border-bottom: 1px solid #fff;
+    display: block;
+    margin: 0 0 0 15px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.orelss:hover, .orelss:active {
+    border-bottom: 0
+}
+
+@media (min-width: 1024px) {
+    .orelss {
+        display: block;
+        margin: 15px 0 0 0
+    }
+}
+
+.catalog-block {
+    padding-bottom: 40px
+}
+
+.catalog-box {
+    margin-bottom: 20px;
+    position: relative;
+    display: block
+}
+
+.catalog-box-inner {
+    width: 212px;
+    height: 212px;
+    margin: 0 auto;
+    border: 1px solid #6d6d6d;
+    padding: 0;
+    position: relative
+}
+
+.catalog-box-image {
+    width: 210px;
+    height: 210px;
+    display: block
+}
+
+@media (min-width: 1024px) {
+    .catalog-box-image {
+        width: 105px;
+        height: 104px;
+        position: relative;
+        top: 30px;
+        left: 52px;
+        z-index: 1
+    }
+}
+
+.catalog-box-name {
+    text-align: center;
+    font-family: "franklingothicbook", sans-serif;
+    font-size: 15px;
+    color: #78191b;
+    line-height: 1.4;
+    margin: 15px 0 0 0
+}
+
+.catalog-box-name:hover, .catalog-box-name:active {
+    text-decoration: underline
+}
+
+@media (min-width: 1024px) {
+    .catalog-box-name {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        z-index: 0;
+        width: 208px;
+        background: rgba(255, 255, 255, 0.8);
+        margin: 0 0 0 -104px;
+        padding: 0 10px;
+        left: 50%;
+        top: 138px
+    }
+}
+
+.service-image {
+    text-align: center
+}
+
+.service-info {
+    padding-top: 20px;
+    padding-bottom: 40px
+}
+
+@media (min-width: 767px) {
+    .service-info {
+        padding-top: 0
+    }
+}
+
+@media (min-width: 767px) {
+    .service-info .btn-black {
+        margin: 0
+    }
+}
+
+.service-typical {
+    font-family: "franklingothicbookc", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px
+}
+
+.service-list {
+    padding-bottom: 20px
+}
+
+.service-list li.service-list-item {
+    padding: 0 0 0 15px;
+    background: url("/bitrix/images/list-dot.png") 0 20px no-repeat;
+    list-style-type: none
+}
+
+.service-list li.service-list-item > a {
+    font-family: "franklingothicbookc", sans-serif;
+    font-size: 18px;
+    color: #000;
+    border-bottom: 1px dotted #000;
+    margin: 10px 0 10px 0;
+    display: inline-block
+}
+
+.service-list li.service-list-item > a:hover {
+    border-bottom: 1px dotted transparent
+}
+
+.service-list li.service-list-item .panel-collapse li {
+    padding: 0 0 10px 15px;
+    background: url("/bitrix/images/grey-dot.png") 0 7px no-repeat;
+    font-family: "franklingothicbookc", sans-serif;
+    color: #0e0e0e
+}
+
+.service-list li.service-list-item .panel-collapse .btn-white {
+    width: 290px;
+    text-transform: none;
+    margin: 0 0 0 -15px;
+    border: 1px solid #000
+}
+
+.service-text-block {
+    border-top: 3px solid #0e0e0e;
+    background: #f6f6f6;
+    padding-bottom: 50px
+}
+
+.service-text-block-heading {
+    font-family: "franklingothicmedium", sans-serif;
+    text-align: center;
+    padding: 40px 0 0;
+    font-size: 30px
+}
+
+.service-text-block-heading span {
+    color: #78191b
+}
+
+.service-text-block .service-text {
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 0 0 20px 0
+}
+
+.service-text-block .service-text-addition {
+    display: none
+}
+
+.service-text-block .btn-black {
+    margin: 20px auto 0 auto
+}
+
+.practice-heading {
+    padding: 40px 0
+}
+
+.practice-group {
+    padding: 0 15px 60px 15px
+}
+
+.practice .nav-tabs {
+    padding-bottom: 40px
+}
+
+.practice .nav-tabs > li {
+    margin: 0 0 20px 0
+}
+
+.practice .nav-tabs > li > a {
+    padding: 0;
+    font-size: 20px;
+    font-family: "franklingothicbook", sans-serif;
+    color: #0e0e0e;
+    margin: 0;
+    display: inline;
+    border-bottom: 1px dotted #0e0e0e
+}
+
+.practice .nav-tabs > li > a:hover {
+    border-bottom: 1px dotted transparent;
+    background-color: #fff
+}
+
+.practice .nav-tabs > li.active > a, .practice .nav-tabs > li.active > a:hover, .practice .nav-tabs > li.active > a:focus {
+    color: #78191b;
+    background-color: #fff;
+    border-color: transparent;
+    cursor: default
+}
+
+.practice .nav-tabs {
+    border-bottom: 2px solid #ddd
+}
+
+.catalog-block > ul {
+    list-style-type: disc;
+    padding: 10px 0 30px 35px;
+    font-family: 'franklingothicbookc';
+    line-height: 1.5
+}
+
+.catalog-block > ul > li {
+    list-style-type: disc;
+    padding: 10px 0 0 20px;
+    font-family: 'franklingothicbookc';
+    line-height: 1.5
+}
+
+.catalog-block > ol {
+    list-style-type: decimal;
+    padding: 10px 0 30px 35px;
+    font-family: 'franklingothicbookc';
+    line-height: 1.5
+}
+
+.catalog-block > ol > li {
+    list-style-type: decimal;
+    padding: 10px 0 0 20px;
+    font-family: 'franklingothicbookc';
+    line-height: 1.5
+}
+
+.page-content strong {
+    color: #78191b;
+    font-weight: bold;
+    font-family: 'franklingothicbookc'
+}
+
+.rightimg {
+    float: right;
+    position: relative;
+    padding: 19px 0 19px 10px
+}
+
+.cont {
+    font-size: 18px
+}
+
+.cont_strong {
+    font-weight: bold;
+    font-family: 'franklingothicbookc'
+}
+
+.new-sp > ul {
+    padding-bottom: 20px
+}
+
+.new-sp > ul > li {
+    font-family: "franklingothicbookc", sans-serif;
+    font-size: 18px;
+    color: #000;
+    margin: 10px 0 10px 0;
+    display: inline-block;
+    padding: 0 0 0 15px;
+    background: url("/bitrix/images/list-dot.png") 0 10px no-repeat
+}
+
+.center {
+    margin: 0 auto
+}
+
+.h4_cont {
+    color: #78191b;
+    font-weight: bold;
+    font-family: 'franklingothicbookc';
+    font-size: 23px;
+    padding-top: 40px;
+    padding-bottom: 0
+}
+
+@media (max-width: 800px) {
+    .new-date {
+        display: block;
+        margin: 0 0 9px 17px;
+        color: #6d6d6d;
+        font-size: 15px;
+        font-family: "franklingothicbookc", sans-serif
+    }
+
+    .new-img {
+        display: inline-block;
+        float: left;
+        padding: 0 21px 0 17px
+    }
+}
+
+@media print {
+    .table {
+        border-collapse: collapse !important
+    }
+
+    .table td, .table th {
+        background-color: #fff !important
+    }
+
+    .table-bordered th, .table-bordered td {
+        border: 1px solid #ddd !important
+    }
+}
+
+.table {
+    max-width: 100%;
+    margin-bottom: 20px
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd
+}
+
+.table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd
+}
+
+.table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > th, .table > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > td {
+    border-top: 0
+}
+
+.table > tbody + tbody {
+    border-top: 2px solid #ddd
+}
+
+.table .table {
+    background-color: #fff
+}
+
+.table-condensed > thead > tr > th, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > tbody > tr > td, .table-condensed > tfoot > tr > td {
+    padding: 5px
+}
+
+.table-bordered {
+    border: 1px solid #ddd
+}
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 1px solid #ddd
+}
+
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
+    border-bottom-width: 2px
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #f9f9f9
+}
+
+.table-hover > tbody > tr:hover {
+    background-color: #f5f5f5
+}
+
+table col[class*="col-"] {
+    position: static;
+    display: table-column;
+    float: none
+}
+
+table td[class*="col-"], table th[class*="col-"] {
+    position: static;
+    display: table-cell;
+    float: none
+}
+
+.table > thead > tr > td.active, .table > tbody > tr > td.active, .table > tfoot > tr > td.active, .table > thead > tr > th.active, .table > tbody > tr > th.active, .table > tfoot > tr > th.active, .table > thead > tr.active > td, .table > tbody > tr.active > td, .table > tfoot > tr.active > td, .table > thead > tr.active > th, .table > tbody > tr.active > th, .table > tfoot > tr.active > th {
+    background-color: #f5f5f5
+}
+
+.table-hover > tbody > tr > td.active:hover, .table-hover > tbody > tr > th.active:hover, .table-hover > tbody > tr.active:hover > td, .table-hover > tbody > tr:hover > .active, .table-hover > tbody > tr.active:hover > th {
+    background-color: #e8e8e8
+}
+
+.table > thead > tr > td.success, .table > tbody > tr > td.success, .table > tfoot > tr > td.success, .table > thead > tr > th.success, .table > tbody > tr > th.success, .table > tfoot > tr > th.success, .table > thead > tr.success > td, .table > tbody > tr.success > td, .table > tfoot > tr.success > td, .table > thead > tr.success > th, .table > tbody > tr.success > th, .table > tfoot > tr.success > th {
+    background-color: #dff0d8
+}
+
+.table-hover > tbody > tr > td.success:hover, .table-hover > tbody > tr > th.success:hover, .table-hover > tbody > tr.success:hover > td, .table-hover > tbody > tr:hover > .success, .table-hover > tbody > tr.success:hover > th {
+    background-color: #d0e9c6
+}
+
+.table > thead > tr > td.info, .table > tbody > tr > td.info, .table > tfoot > tr > td.info, .table > thead > tr > th.info, .table > tbody > tr > th.info, .table > tfoot > tr > th.info, .table > thead > tr.info > td, .table > tbody > tr.info > td, .table > tfoot > tr.info > td, .table > thead > tr.info > th, .table > tbody > tr.info > th, .table > tfoot > tr.info > th {
+    background-color: #d9edf7
+}
+
+.table-hover > tbody > tr > td.info:hover, .table-hover > tbody > tr > th.info:hover, .table-hover > tbody > tr.info:hover > td, .table-hover > tbody > tr:hover > .info, .table-hover > tbody > tr.info:hover > th {
+    background-color: #c4e3f3
+}
+
+.table > thead > tr > td.warning, .table > tbody > tr > td.warning, .table > tfoot > tr > td.warning, .table > thead > tr > th.warning, .table > tbody > tr > th.warning, .table > tfoot > tr > th.warning, .table > thead > tr.warning > td, .table > tbody > tr.warning > td, .table > tfoot > tr.warning > td, .table > thead > tr.warning > th, .table > tbody > tr.warning > th, .table > tfoot > tr.warning > th {
+    background-color: #fcf8e3
+}
+
+.table-hover > tbody > tr > td.warning:hover, .table-hover > tbody > tr > th.warning:hover, .table-hover > tbody > tr.warning:hover > td, .table-hover > tbody > tr:hover > .warning, .table-hover > tbody > tr.warning:hover > th {
+    background-color: #faf2cc
+}
+
+.table > thead > tr > td.danger, .table > tbody > tr > td.danger, .table > tfoot > tr > td.danger, .table > thead > tr > th.danger, .table > tbody > tr > th.danger, .table > tfoot > tr > th.danger, .table > thead > tr.danger > td, .table > tbody > tr.danger > td, .table > tfoot > tr.danger > td, .table > thead > tr.danger > th, .table > tbody > tr.danger > th, .table > tfoot > tr.danger > th {
+    background-color: #f2dede
+}
+
+.table-hover > tbody > tr > td.danger:hover, .table-hover > tbody > tr > th.danger:hover, .table-hover > tbody > tr.danger:hover > td, .table-hover > tbody > tr:hover > .danger, .table-hover > tbody > tr.danger:hover > th {
+    background-color: #ebcccc
+}
+
+.table-responsive {
+    min-height: .01%;
+    overflow-x: auto
+}
+
+@media screen and (max-width: 767px) {
+    .catalog-block > ul {
+        padding: 10px 0 30px 0
+    }
+
+    .service-list li.service-list-item .panel-collapse li {
+        padding: 0 0 10px 0
+    }
+
+    .table-responsive {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #ddd
+    }
+
+    .table-responsive > .table {
+        margin-bottom: 0
+    }
+
+    .table-responsive > .table > thead > tr > th, .table-responsive > .table > tbody > tr > th, .table-responsive > .table > tfoot > tr > th, .table-responsive > .table > thead > tr > td, .table-responsive > .table > tbody > tr > td, .table-responsive > .table > tfoot > tr > td {
+        white-space: nowrap
+    }
+
+    .table-responsive > .table-bordered {
+        border: 0
+    }
+
+    .table-responsive > .table-bordered > thead > tr > th:first-child, .table-responsive > .table-bordered > tbody > tr > th:first-child, .table-responsive > .table-bordered > tfoot > tr > th:first-child, .table-responsive > .table-bordered > thead > tr > td:first-child, .table-responsive > .table-bordered > tbody > tr > td:first-child, .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+        border-left: 0
+    }
+
+    .table-responsive > .table-bordered > thead > tr > th:last-child, .table-responsive > .table-bordered > tbody > tr > th:last-child, .table-responsive > .table-bordered > tfoot > tr > th:last-child, .table-responsive > .table-bordered > thead > tr > td:last-child, .table-responsive > .table-bordered > tbody > tr > td:last-child, .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+        border-right: 0
+    }
+
+    .table-responsive > .table-bordered > tbody > tr:last-child > th, .table-responsive > .table-bordered > tfoot > tr:last-child > th, .table-responsive > .table-bordered > tbody > tr:last-child > td, .table-responsive > .table-bordered > tfoot > tr:last-child > td {
+        border-bottom: 0
+    }
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse
+}
+
+td, th {
+    padding: 0
+}
+
+.video-marg {
+    margin-top: 40px
+}
+
+#min > ul {
+    list-style-type: disc;
+    padding: 10px 0 30px 35px;
+    font-family: 'franklingothicbookc';
+    line-height: 1.5
+}
+
+#opt > ul {
+    list-style-type: disc;
+    padding: 10px 0 30px 35px;
+    font-family: 'franklingothicbookc';
+    line-height: 1.5
+}
+
+#max > ul {
+    list-style-type: disc;
+    padding: 10px 0 30px 35px;
+    font-family: 'franklingothicbookc';
+    line-height: 1.5
+}
+
+@media (min-width: 767px) {
+    .costTbl tr > td > strong {
+        font-size: 14px
+    }
+}
+
+.costTbl thead > tr > th {
+    padding: 20px 0
+}
+
+.tarifes .table > thead > tr > td > ul > li {
+    list-style-type: disc;
+    padding: 10px 0 0 5px;
+    font-family: 'franklingothicbookc';
+    line-height: 1.5;
+    margin: 0 10px
+}
+
+.tarifes .table tr > th {
+    font-family: 'franklingothicbookc';
+    font-size: 27px
+}
+
+.tarifes .table tr > th:nth-child(1) {
+    color: #000
+}
+
+.tarifes .table tr > th:nth-child(2) {
+    color: #873335
+}
+
+.tarifes .table tr > th:nth-child(3) {
+    color: #c4292c
+}
+
+.tarifes .table td > p {
+    margin: 15px 15px 0 0
+}
+
+.tarifes .table td > p > strong {
+    font-family: 'franklingothicbookc';
+    font-size: 18px
+}
+
+@media (max-width: 767px) {
+    .tarifes {
+        overflow-x: scroll;
+        overflow-y: hidden
+    }
+
+    .costwrap {
+        overflow-x: scroll;
+        overflow-y: hidden
+    }
+}
+
+@media (max-width: 1023px) {
+    .catalog-box-name {
+        font-size: 22px
+    }
+}
+
+@media (max-width: 767px) {
+    .catalog-block {
+        padding-bottom: 0
+    }
+
+    .consult-block-heading {
+        margin-bottom: 30px
+    }
+
+    .consult-form {
+        height: 430px
+    }
+}
+
+.mobile-only {
+    display: none !important;
+    text-transform: uppercase
+}
+
+@media (max-width: 766px) {
+    .mobile-only {
+        display: block !important;
+        font-size: 22px !important
+    }
+}
+
+@media (max-width: 766px) {
+    .pc-only {
+        display: none !important
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .page-nav ul > li ul li a {
+        font-size: 18px;
+        color: #c4292c;
+        display: block;
+        font-family: "franklingothicbookc", sans-serif;
+        font-size: 22px;
+        color: #fff;
+        padding: 14px 0 10px 0;
+        text-align: center;
+        border-bottom: 1px solid #f6f6f6
+    }
+
+    .page-nav ul > li ul li span {
+        font-size: 18px;
+        color: #c4292c;
+        display: block;
+        font-family: "franklingothicbookc", sans-serif;
+        font-size: 22px;
+        color: #fff;
+        padding: 0;
+        text-align: center;
+        border-bottom: 1px solid #f6f6f6
+    }
+
+    .page-nav ul > li ul {
+        background: #c4292c;
+        padding: 0
+    }
+
+    .page-nav ul > li span {
+        display: block;
+        font-family: "franklingothicbookc", sans-serif;
+        font-size: 24px;
+        color: #000;
+        padding: 1px 0;
+        text-align: center;
+        border-bottom: 1px solid #f6f6f6;
+        height: auto
+    }
+
+    .page-nav ul > li:hover {
+        background: #c6c6c6;
+        text-decoration: none;
+        color: #c4292c
+    }
+}
+
+.cont-bl {
+    margin-top: 30px
+}
+
+.cont-bl p > a {
+    text-decoration: underline
+}
+
+.cont-bl p > a:hover {
+    text-decoration: none
+}
+
+.privacy_policy {
+    color: #fff;
+    font-size: 11px;
+    line-height: 16px;
+    position: relative;
+    margin: 200px auto 0;
+    text-align: center
+}
+
+.privacy_policy a {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    text-decoration: none
+}
+
+.privacy_policy a:hover {
+    border-bottom: 0 solid #fff;
+    text-decoration: none
+}
+
+@media (max-width: 960px) {
+    .privacy_policy {
+        margin: 218px auto 0
+    }
+}
+
+@media (max-width: 760px) {
+    .privacy_policy {
+        margin: 57px auto 75px
+    }
+}
+
+@media (max-width: 460px) {
+    .privacy_policy {
+        margin: 57px auto 63px
+    }
+}
+
+@media (max-width: 460px) {
+    .pn-fixed{
+        display: none !important;
+    }
+    .form-bottom-text{
+        margin: 40px 0 0 0 !important;
+    }
+}

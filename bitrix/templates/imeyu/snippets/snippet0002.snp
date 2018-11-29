@@ -1,0 +1,46 @@
+<div class="how-block">
+    <h2 class="how-block-heading">Как мы решаем Вашу проблему</h2>
+    <div class="tablet-red">
+        <div class="container">
+            <div class="row">
+                <div class="how-box how-box-red col-xs-12 col-sm-6 col-lg-4">
+                    <h3 class="how-box-heading">Консультируем</h3>
+                    <p class="how-short">Вы связываетесь с нами,<br>
+и мы бесплатно:</p>
+                    <div class="how-number"><span>1</span></div>
+                    <ul class="how-list">
+                        <li>Проводим правовой анализ ситуации</li>
+                        <li>Даем заключение о перспективах дела</li>
+                        <li>Информируем о рисках</li>
+                        <li>Ориентируем по стоимости</li>
+                    </ul>
+                    <button type="button" class="btn btn-white" data-toggle="modal" data-target="#consultModal">
+                       Проконсультироваться
+                   </button>
+                </div> <!--how-box-->
+                <div class="how-box col-xs-12 col-sm-6 col-lg-4">
+                    <h3 class="how-box-heading">Планируем</h3>
+                    <p class="how-short">Мы приступаем к решению проблемы:</p>
+                    <div class="how-number"><span>2</span></div>
+                    <ul class="how-list">
+                        <li>Заключаем договор</li>
+                        <li>Разрабатываем поэтапный план действий</li>
+                        <li>Собираем и анализируем необходимые доказательства</li>
+                        <li>Сводим к минимуму возможные риски</li>
+                    </ul>
+                </div>
+                <div class="how-box how-box-red how-box-last col-xs-12 col-sm-6 col-lg-4">
+                    <h3 class="how-box-heading">Решаем</h3>
+                    <p class="how-short">Действуем по выбранному плану:</p>
+                    <div class="how-number"><span>3</span></div>
+                    <ul class="how-list">
+                        <li>Готовим и подаем нужные документы</li>
+                        <li>Защищаем Ваши права в суде и иных компетентных органах</li>
+                        <li>Контролируем реализацию Ваших прав</li>
+                        <li>Передаем результат нашей работы</li>
+                    </ul>
+                </div>
+            </div> <!--row-->
+        </div> <!--container-->
+    </div>
+</div>

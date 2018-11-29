@@ -1,0 +1,25 @@
+<div class="guarantee-block">
+ 	<div class="container">
+ 		<h2 class="guarantee-block-heading">
+ 			<span>Вы гарантированно</span> получите
+ 		</h2>
+ 		<div class="row">
+ 			<div class="guarantee-box col-xs-12 col-sm-3">
+ 				<div class="guarantee-image"><img class="free-img" src="/bitrix/images/free.png" alt=""></div>
+ 				<h3 class="guarantee-heading">Первичная консультация</h3>
+ 			</div>
+ 			<div class="guarantee-box col-xs-12 col-sm-3">
+ 				<div class="guarantee-image"><img src="/bitrix/images/93.png" alt=""></div>
+ 				<h3 class="guarantee-heading">Успешное решение Вашей проблемы</h3>
+ 			</div>
+ 			<div class="guarantee-box col-xs-12 col-sm-3">
+ 				<div class="guarantee-image"><img src="/bitrix/images/96.png" alt=""></div>
+ 				<h3 class="guarantee-heading">Вы останетесь довольны нашей работой</h3>
+ 			</div>
+ 			<div class="guarantee-box col-xs-12 col-sm-3">
+ 				<div class="guarantee-image"><img src="/bitrix/images/100.png" alt=""></div>
+ 				<h3 class="guarantee-heading">Возврат гонорара<br>при недостижении результата</h3>
+ 			</div>
+ 		</div> <!--row-->
+ 	</div> <!--container-->
+ </div> <!--guarantee-block-->
