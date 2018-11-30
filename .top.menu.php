@@ -23,21 +23,21 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"Статьи и новости", 
-		"/news/", 
+		"/news/index.php", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Стоимость", 
-		"/prices-services.html", 
+		"/prices-services/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"О нас", 
-		"/o-nas/", 
+		"/o-nas.html", 
 		Array(), 
 		Array(), 
 		"" 
