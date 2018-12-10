@@ -37,14 +37,14 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"О нас", 
-		"/o-nas.html", 
+		"/o-nas.php", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Контакты", 
-		"/contacts/", 
+		"/contacts.php", 
 		Array(), 
 		Array(), 
 		"" 

@@ -38,7 +38,7 @@
 	</button>
 </div>
 <nav class="page-nav collapse navbar-collapse" id="bs-example-navbar-collapse">
-
+<!--
 <?$APPLICATION->IncludeComponent("bitrix:menu", "horizontal_multilevel2", Array(
 	"ALLOW_MULTI_SELECT" => "N",	// Разрешить несколько активных пунктов одновременно
 		"CHILD_MENU_TYPE" => "top",	// Тип меню для остальных уровней
@@ -54,7 +54,7 @@
 	),
 	false
 );?>
-
+-->
     <ul class="container"><li><span role="button" data-toggle="collapse">Услуги</span><ul id="serviceAll" class="panel-collapse collapse" role="tablist"><li><a href="/uslugi/dlya-grazhdan.html">Для граждан</a></li>
 <li><a href="/uslugi/dlya-biznesa.html">Для бизнеса</a></li>
 </ul></li>
@@ -64,7 +64,7 @@
 <li><a href="/otzyivyi.html">Отзывы</a></li>
 <li><a href="/news.html">Статьи и новости</a></li>
 <li><a href="/prices-services.html">Стоимость</a></li>
-<li class="act"><span>О нас</span></li>
+<li><a href="/o-nas.html">О нас</a></li>
 <li><a href="/contacts.html">Контакты</a></li>
 </ul>
  </nav>
@@ -99,4 +99,13 @@
 </header> <!--page-header-->
 
 <div class="page-content">
-
+<!--
+<div class="breadcrumbs container">
+ 	<ul>
+ 		<ul class="B_crumbBox"><li class="B_firstCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"><a class="B_homeCrumb" itemprop="url" rel="Home" href="http://imeyu.alfa.space"><span itemprop="title">Главная</span></a></li>
+  <li itemscope="itemscope" class="B_crumb" itemtype="http://data-vocabulary.org/Breadcrumb"><a class="B_crumb" itemprop="url" rel="✔ Центр Правовых Услуг ★★★★★ «ИМЕЮ ПРАВО» в Орле, Предоставляет услуги как для граждан, так и для бизнеса ➡ Узнать подробнее ✔" href="/uslugi.html"><span itemprop="title">Услуги</span></a></li>
+  <li class="B_lastCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"><a class="B_currentCrumb" itemprop="url" rel="✔ Центр Правовых Услуг ★★★★★ «ИМЕЮ ПРАВО» Предоставляет юридические услуги для граждан, наш юрист по жилищным вопросам решит все жилищные споры ➡ Узнать подробнее ✔" href="/uslugi/dlya-grazhdan.html"><span itemprop="title">Для граждан</span></a></li>
+</ul>
+ 	</ul>
+ </div>
+-->

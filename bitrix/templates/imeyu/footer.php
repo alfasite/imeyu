@@ -5,7 +5,6 @@
 
 
 
-
  </div>
 
  <footer class="page-footer">
@@ -77,7 +76,7 @@ style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" tit
             </div>
             
  		</div> <!--footer-creator-->
- 		<div class="privacy_policy">Отправляя любую форму на сайте, вы соглашаетесь с <a rel="nofollow" href="//xn----8sbgjoysfj1l.xn--p1ai/politika-konfidenczialnosti-i-zashhityi-informaczii.html">Политикой конфиденциальности</a>.</div>
+ 		<div class="privacy_policy">Отправляя любую форму на сайте, вы соглашаетесь с <a rel="nofollow" href="/politika-konfidenczialnosti-i-zashhityi-informaczii.html">Политикой конфиденциальности</a>.</div>
  	</div> <!--container-->
  </footer> <!--page-footer-->
 
@@ -94,19 +93,21 @@ style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" tit
             </div>
              
                  
-           <form action="/o-nas.html#consultModal" method="POST" onSubmit="$('#sid_feedback').attr('value', '')">
+           <form action="<?=POST_FORM_ACTION_URI?>" method="POST">
+<?=bitrix_sessid_post()?>
                 <input type="hidden" name="sended" value="2" />
  				<input class="hidden" type="text" name="formtype" value="consult">
  				<div class="form-box">
- 					<textarea class="consult-textarea" name="comment" id="" placeholder="Опишите свою ситуацию" value=""></textarea>
+ 					<textarea class="consult-textarea" name="MESSAGE" id="" placeholder="Опишите свою ситуацию" value=""><?=$arResult["MESSAGE"]?></textarea>
  					<p class="form-comment">Чтобы понимать Вашу проблему</p>
  				</div>
  				<div class="form-box">
- 					<input type="text" class="consult-text-input "  value=""  name="phone" id="" placeholder="*Номер телефона в любом формате">
+ 					<input type="text" class="consult-text-input "  value=""  name="user_name" id="" placeholder="*Номер телефона в любом формате">
  					<p class="form-comment">Чтобы перезвонить в течение 30 минут и проконсультировать Вас</p>
  				</div>
- 					<div class="form-box"><input type="checkbox" name="checkterms" checked data-checkterms> Я согласен на <a rel="nofollow" href="//xn----8sbgjoysfj1l.xn--p1ai/politika-konfidenczialnosti-i-zashhityi-informaczii.html" target="_blank">обработку</a> моих персональных данных</div>
- 				<input class="btn btn-black" type="submit" name="btn_pop_consult" value="ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ">
+					<input type="hidden" name="PARAMS_HASH" value="<?=$arResult["PARAMS_HASH"]?>">
+ 					<div class="form-box"><input type="checkbox" name="checkterms" checked data-checkterms> Я согласен на <a rel="nofollow" href="/politika-konfidenczialnosti-i-zashhityi-informaczii.html" target="_blank">обработку</a> моих персональных данных</div>
+ 				<input class="btn btn-black" type="submit" name="submit" value="ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ">
  			</form>
 			<p class="form-bottom-text">
 	 			Заполните форму или позвоните по телефону:

@@ -23,6 +23,21 @@ $this->setFrameMode(true);
 	$this->AddEditAction($arItem['ID'], $arItem['EDIT_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_EDIT"));
 	$this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BNL_ELEMENT_DELETE_CONFIRM')));
 	?>
+<!-- self write template -->
+
+<div class="opinion-box">
+	<img src="/bitrix/templates/imeyu/images/quote2.png" class="opinion-image" alt="Фото">
+	<div class="opinion-info">
+		<h3 class="opinion-name"><?=$arItem["NAME"]?></h3>
+		<p class="opinion-text"><?=$arItem["PREVIEW_TEXT"]?></p>
+		<!--<a href="/[[+tv.file]]">Смотреть оригинал</a>-->
+		<a href= "<?=$arItem["DETAIL_PICTURE"]["SRC"]?>"  class="to-original" data-lightbox="image-1">Смотреть оригинал</a>
+	</div>
+</div> <!--opinion-box-->
+
+<!-- end self write template -->
+<!-- parent template -->
+<!--
 	<table>
 		<tr>
 			<td><img src="/bitrix/templates/imeyu/images/quote2.png" /></td>
@@ -60,6 +75,7 @@ $this->setFrameMode(true);
 				<a href="<?echo $arItem["DETAIL_PAGE_URL"]?>"><b><?echo $arItem["NAME"]?></b></a><br />
 			<?else:?>
 				<!-- <b><?echo $arItem["NAME"]?> </b><br /> -->
+<!--
 			<?endif;?>
 		<?endif;?>
 		<?if($arParams["DISPLAY_PREVIEW_TEXT"]!="N" && $arItem["PREVIEW_TEXT"]):?>
@@ -76,6 +92,7 @@ $this->setFrameMode(true);
 		<?foreach($arItem["DISPLAY_PROPERTIES"] as $pid=>$arProperty):?>
 			<small>
 				<!-- <?=$arProperty["NAME"]?>:&nbsp; -->
+<!--
 			<?if(is_array($arProperty["DISPLAY_VALUE"])):?>
 				<?=implode("&nbsp;/&nbsp;", $arProperty["DISPLAY_VALUE"]);?>
 			<?else:?>
@@ -91,11 +108,13 @@ $this->setFrameMode(true);
 			</small><br />
 
 		<?endforeach;?>
--->
+
 		<a href="<?=$arItem["DETAIL_PICTURE"]["SRC"]?>">Смотреть оригинал-></a>
 	</p></td>
 		</tr>
 	</table>
+-->
+<!-- end parent template -->
 <?endforeach;?>
 <?if($arParams["DISPLAY_BOTTOM_PAGER"]):?>
 	<br /><?=$arResult["NAV_STRING"]?>

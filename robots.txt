@@ -1,2 +1,9 @@
 User-Agent: *
-Disallow: /
+Disallow: /auth/
+Disallow: /bitrix/
+Disallow: /scripts/
+Disallow: /upload/
+Disallow: /connectors/
+Disallow: /images/
+Disallow: /files/
+Disallow: *?

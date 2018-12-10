@@ -60,21 +60,24 @@ if(!defined("B_PROLOG_INCLUDED")||B_PROLOG_INCLUDED!==true)die();
                    ]]
                `:else=``]]
 -->
-                <form action="/#form_consult" method="POST" onSubmit="$('#sid_feedback').attr('value', '[[!setSessionKey? &id=`sid_feedback` &return=`1`]]')">
+                <form action="<?=POST_FORM_ACTION_URI?>" method="POST" onSubmit="">
+				<?=bitrix_sessid_post()?>
                     <input type="hidden" name="sended" value="2" />
                     <input type="text" class="hidden" name="formtype" value="consult">
                     <div class="form-box">
-                        <textarea class="consult-textarea" name="comment" placeholder="Опишите свою ситуацию" value="[[!+fi.comment]]">[[!+fi.comment]]</textarea>
+                        <textarea class="consult-textarea" name="MESSAGE" placeholder="Опишите свою ситуацию" value=""></textarea>
                         <p class="form-comment">Чтобы понимать Вашу проблему</p>
                     </div>
                     <div class="form-box">
-                        <input type="text" class="consult-text-input required  [[!+fi.error.phone:ne=``:then=` error`:else=``]]" name="phone"  placeholder="*Номер телефона в любом формате" value="[[!+fi.phone]]">
+                        <input type="text" class="consult-text-input" name="user_name"  placeholder="*Номер телефона в любом формате" value="">
                         <p class="form-comment">Чтобы перезвонить в течение 30 минут и проконсультировать Вас</p>
                     </div>
                     <div class="form-box">
                         <input type="checkbox" name="checkterms" checked data-checkterms> Я согласен на <a rel="nofollow" href="//xn----8sbgjoysfj1l.xn--p1ai/politika-konfidenczialnosti-i-zashhityi-informaczii.html" target="_blank">обработку</a> моих персональных данных
                     </div>
+					<input type="hidden" name="PARAMS_HASH" value="<?=$arResult["PARAMS_HASH"]?>">
                     <input class="btn btn-red" type="submit"  value="ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ" name="btn_consult">
+
                 </form>
             </div> <!--consult-form-->
         </div> <!--row-->
