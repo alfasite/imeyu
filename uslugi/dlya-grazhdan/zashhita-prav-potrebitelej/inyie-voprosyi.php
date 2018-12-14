@@ -19,7 +19,7 @@ $APPLICATION->SetTitle("Title");
 	<div class="service container">
 		<div class="row">
 			<div>
-				<h1>Иные вопросы</h1>
+				<h1>Иные вопросы по защите прав потребителя</h1>
 			</div>
 			<div class="service-item">
 				<div class="service-image col-xs-12 col-sm-5">
@@ -49,13 +49,13 @@ $APPLICATION->SetTitle("Title");
 			<h2 class="service-text-block-heading">
 			Иные вопросы, <span>важно знать! </span> </h2>
 			<p>
-				В&nbsp;ЦПУ «Имею Право» Вы&nbsp;можете получить юридическую помощь квалифицированных специалистов по&nbsp;защите прав потребителей: консультирование, составление и&nbsp;анализ различного рода документов и&nbsp;исков, представление интересов в&nbsp;суде и&nbsp;иные возможные механизмы защиты и&nbsp;реализации Ваших прав.
+				 В&nbsp;ЦПУ «Имею Право» Вы&nbsp;можете получить юридическую помощь квалифицированных специалистов по&nbsp;защите прав потребителей: консультирование, составление и&nbsp;анализ различного рода документов и&nbsp;исков, представление интересов в&nbsp;суде и&nbsp;иные возможные механизмы защиты и&nbsp;реализации Ваших прав.
 			</p>
 			<p>
-				Мы&nbsp;гарантируем тщательную проработку каждого вопроса и&nbsp;оптимальное решение поставленных задач в&nbsp;установленные сроки.
+				 Мы&nbsp;гарантируем тщательную проработку каждого вопроса и&nbsp;оптимальное решение поставленных задач в&nbsp;установленные сроки.
 			</p>
 			<p>
-				Обратившись к&nbsp;нам, Вы&nbsp;сразу начинаете решать свою проблему, получив бесплатную консультацию с&nbsp;юридически обоснованными ответами на&nbsp;главные вопросы: «Почему так получилось?», «Кто виноват?», «Что делать дальше?».
+				 Обратившись к&nbsp;нам, Вы&nbsp;сразу начинаете решать свою проблему, получив бесплатную консультацию с&nbsp;юридически обоснованными ответами на&nbsp;главные вопросы: «Почему так получилось?», «Кто виноват?», «Что делать дальше?».
 			</p>
 		</div>
 		 <!--container-->
@@ -67,28 +67,28 @@ $APPLICATION->SetTitle("Title");
 			<div class="row">
 				<div class="guarantee-box col-xs-12 col-sm-3">
 					<div class="guarantee-image">
-						<img src="/bitrix/images/free.png" class="free-img" alt="">
+ <img src="/bitrix/images/free.png" class="free-img" alt="">
 					</div>
 					<h3 class="guarantee-heading">Первичная консультация</h3>
 				</div>
 				<div class="guarantee-box col-xs-12 col-sm-3">
 					<div class="guarantee-image">
-						<img src="/bitrix/images/93.png" alt="">
+ <img src="/bitrix/images/93.png" alt="">
 					</div>
 					<h3 class="guarantee-heading">Успешное решение Вашей проблемы</h3>
 				</div>
 				<div class="guarantee-box col-xs-12 col-sm-3">
 					<div class="guarantee-image">
-						<img src="/bitrix/images/96.png" alt="">
+ <img src="/bitrix/images/96.png" alt="">
 					</div>
 					<h3 class="guarantee-heading">Вы останетесь довольны нашей работой</h3>
 				</div>
 				<div class="guarantee-box col-xs-12 col-sm-3">
 					<div class="guarantee-image">
-						<img src="/bitrix/images/100.png" alt="">
+ <img src="/bitrix/images/100.png" alt="">
 					</div>
 					<h3 class="guarantee-heading">Возврат гонорара<br>
-					при недостижении результата</h3>
+					 при недостижении результата</h3>
 				</div>
 			</div>
 			 <!--row-->
@@ -106,19 +106,19 @@ $APPLICATION->SetTitle("Title");
 						<li class="analisys">
 						<h4 class="consult-name">Правовой анализ Вашей проблемы</h4>
 						<p class="consult-text">
-							Наш юрист бесплатно проведет юридический анализ Вашей ситуации
+							 Наш юрист бесплатно проведет юридический анализ Вашей ситуации
 						</p>
  </li>
 						<li class="perspective">
 						<h4 class="consult-name">Заключение о перспективах дела</h4>
 						<p class="consult-text">
-							После изучения ситуации мы составим заключение&nbsp;о перспективах разрешения дела
+							 После изучения ситуации мы составим заключение&nbsp;о перспективах разрешения дела
 						</p>
  </li>
 						<li class="variants">
 						<h4 class="consult-name">Варианты решения и стоимость</h4>
 						<p class="consult-text">
-							Опишем оптимальные варианты решения Вашей проблемы и рассчитаем их стоимость
+							 Опишем оптимальные варианты решения Вашей проблемы и рассчитаем их стоимость
 						</p>
  </li>
 					</ul>
@@ -126,24 +126,24 @@ $APPLICATION->SetTitle("Title");
 				 <!--consult-free-->
 				<div class="consult-form col-xs-12 col-md-6">
 					<div class="consult-form-header">
-						<span>Заполните форму,</span> и мы свяжемся с Вами
+ <span>Заполните форму,</span> и мы свяжемся с Вами
 					</div>
 					<form action="/uslugi/dlya-grazhdan/zashhita-prav-potrebitelej/inyie-voprosyi.html#form_consult" method="POST" onsubmit="$('#sid_feedback').attr('value', '')">
  <input type="hidden" name="sended" value="ok3"> <input class="hidden" type="text" name="formtype" value="consult">
 						<div class="form-box">
  <textarea class="consult-textarea" name="comment" id="" placeholder="Опишите свою ситуацию" value=""></textarea>
 							<p class="form-comment">
-								Чтобы понимать Вашу проблему
+								 Чтобы понимать Вашу проблему
 							</p>
 						</div>
 						<div class="form-box">
  <input type="text" class="consult-text-input required " name="phone" id="" placeholder="*Номер телефона в любом формате" value="">
 							<p class="form-comment">
-								Чтобы перезвонить в течение 30 минут и проконсультировать Вас
+								 Чтобы перезвонить в течение 30 минут и проконсультировать Вас
 							</p>
 						</div>
 						<div class="form-box">
-							<input type="checkbox" name="checkterms" checked="" data-checkterms=""> Я согласен на <a rel="nofollow" href="//xn----8sbgjoysfj1l.xn--p1ai/politika-konfidenczialnosti-i-zashhityi-informaczii.html" target="_blank">обработку</a> моих персональных данных
+ <input type="checkbox" name="checkterms" checked="" data-checkterms=""> Я согласен на <a rel="nofollow" href="//xn----8sbgjoysfj1l.xn--p1ai/politika-konfidenczialnosti-i-zashhityi-informaczii.html" target="_blank">обработку</a> моих персональных данных
 						</div>
  <input class="btn btn-red" type="submit" value="ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ" name="btn_consult">
 					</form>
@@ -166,11 +166,11 @@ $APPLICATION->SetTitle("Title");
 					<div class="how-box how-box-red col-xs-12 col-sm-6 col-lg-4">
 						<h3 class="how-box-heading">Консультируем</h3>
 						<p class="how-short">
-							Вы связываетесь с нами,<br>
+							 Вы связываетесь с нами,<br>
 							 и мы бесплатно:
 						</p>
 						<div class="how-number">
-							<span>1</span>
+ <span>1</span>
 						</div>
 						<ul class="how-list">
 							<li>Проводим правовой анализ ситуации</li>
@@ -185,10 +185,10 @@ $APPLICATION->SetTitle("Title");
 					<div class="how-box col-xs-12 col-sm-6 col-lg-4">
 						<h3 class="how-box-heading">Планируем</h3>
 						<p class="how-short">
-							Мы приступаем к решению проблемы:
+							 Мы приступаем к решению проблемы:
 						</p>
 						<div class="how-number">
-							<span>2</span>
+ <span>2</span>
 						</div>
 						<ul class="how-list">
 							<li>Заключаем договор</li>
@@ -200,10 +200,10 @@ $APPLICATION->SetTitle("Title");
 					<div class="how-box how-box-red how-box-last col-xs-12 col-sm-6 col-lg-4">
 						<h3 class="how-box-heading">Решаем</h3>
 						<p class="how-short">
-							Действуем по выбранному плану:
+							 Действуем по выбранному плану:
 						</p>
 						<div class="how-number">
-							<span>3</span>
+ <span>3</span>
 						</div>
 						<ul class="how-list">
 							<li>Готовим и подаем нужные документы</li>
@@ -225,7 +225,7 @@ $APPLICATION->SetTitle("Title");
 			<div class="row" style="position: relative; height: 907px;">
 				<div class="case-box col-xs-12 col-lg-6" style="display: block; position: absolute; left: 0px; top: 0px;">
 					<div class="case-label">
-						Дело №04007
+						 Дело №04007
 					</div>
 					<h3 class="case-heading">Возврат денежных средств за непоставленный автомобиль</h3>
 					<ul class="case-list">
@@ -233,7 +233,7 @@ $APPLICATION->SetTitle("Title");
 						<h4 class="case-item-name">Проблема:</h4>
 						<div class="case-item-text">
 							<p>
-								Автомобиль был оплачен (345 000 рублей), но своевременно не передан покупателю
+								 Автомобиль был оплачен (345 000 рублей), но своевременно не передан покупателю
 							</p>
 						</div>
  </li>
@@ -254,7 +254,7 @@ $APPLICATION->SetTitle("Title");
 						<h4 class="case-item-name">Решение:</h4>
 						<div class="case-item-text">
 							<p>
-								<a href="/files/Решения/04020.pdf">Решение суда</a>
+ <a href="/files/Решения/04020.pdf">Решение суда</a>
 							</p>
 						</div>
  </li>
@@ -262,7 +262,7 @@ $APPLICATION->SetTitle("Title");
 						<h4 class="case-item-name">Результат:</h4>
 						<div class="case-item-text">
 							<p>
-								Клиент получил: сумму предварительной оплаты автомобиля 345 000 рублей, возмещение убытков 2000 рублей, компенсацию морального вреда 30 000 рублей, неустойку 345 000 рублей, штраф 244 562 рубля 50 коп., расходы по оплате услуг представителя 10 000 рублей, а всего - 976 562 рубля 50 копеек&nbsp;
+								 Клиент получил: сумму предварительной оплаты автомобиля 345 000 рублей, возмещение убытков 2000 рублей, компенсацию морального вреда 30 000 рублей, неустойку 345 000 рублей, штраф 244 562 рубля 50 коп., расходы по оплате услуг представителя 10 000 рублей, а всего - 976 562 рубля 50 копеек&nbsp;
 							</p>
 						</div>
  </li>
@@ -271,7 +271,7 @@ $APPLICATION->SetTitle("Title");
 				 <!--case-box-->
 				<div class="case-box col-xs-12 col-lg-6" style="display: block; position: absolute; left: 485px; top: 0px;">
 					<div class="case-label">
-						Дело №01081
+						 Дело №01081
 					</div>
 					<h3 class="case-heading">Покупка товара по каталогу</h3>
 					<ul class="case-list">
@@ -293,7 +293,7 @@ $APPLICATION->SetTitle("Title");
 						<li class="case-item case-result">
 						<h4 class="case-item-name">Результат:</h4>
 						<div class="case-item-text">
-							Денежные средства, уплаченные по договору, возвращены покупателю в добровольном порядке
+							 Денежные средства, уплаченные по договору, возвращены покупателю в добровольном порядке
 						</div>
  </li>
 					</ul>
@@ -301,7 +301,7 @@ $APPLICATION->SetTitle("Title");
 				 <!--case-box-->
 				<div class="case-box col-xs-12 col-lg-6" style="display: none; position: absolute; left: 485px; top: 479px;">
 					<div class="case-label">
-						Дело №02074
+						 Дело №02074
 					</div>
 					<h3 class="case-heading">Ненадлежащая информация о товаре</h3>
 					<ul class="case-list">
@@ -323,7 +323,7 @@ $APPLICATION->SetTitle("Title");
 						<li class="case-item case-result">
 						<h4 class="case-item-name">Результат:</h4>
 						<div class="case-item-text">
-							Расторжение договора купли-продажи, продавец вернул уплаченные деньги за товар в добровольном порядке
+							 Расторжение договора купли-продажи, продавец вернул уплаченные деньги за товар в добровольном порядке
 						</div>
  </li>
 					</ul>
@@ -331,7 +331,7 @@ $APPLICATION->SetTitle("Title");
 				 <!--case-box-->
 				<div class="case-box col-xs-12 col-lg-6" style="display: none; position: absolute; left: 485px; top: 479px;">
 					<div class="case-label">
-						Дело №01090
+						 Дело №01090
 					</div>
 					<h3 class="case-heading">Возврат товара надлежащего качества</h3>
 					<ul class="case-list">
@@ -356,7 +356,7 @@ $APPLICATION->SetTitle("Title");
 						<li class="case-item case-result">
 						<h4 class="case-item-name">Результат:</h4>
 						<div class="case-item-text">
-							Решением суда в требованиях, предъявленных к Клиенту, отказано в полном объеме, стоимость экспертизы взыскана с покупателя
+							 Решением суда в требованиях, предъявленных к Клиенту, отказано в полном объеме, стоимость экспертизы взыскана с покупателя
 						</div>
  </li>
 					</ul>
@@ -365,7 +365,7 @@ $APPLICATION->SetTitle("Title");
 			</div>
 			 <!--row-->
 			<div class="btn-more-pr">
-				Смотреть еще
+				 Смотреть еще
 			</div>
  <a href="/practice.html" class="btn btn-black" id="all-deal" style="display: none;">Смотреть все дела</a>
 		</div>
@@ -374,26 +374,26 @@ $APPLICATION->SetTitle("Title");
 			<div class="pavel-box">
 				<div class="row">
 					<div class="pavel-image col-xs-12 col-sm-4">
-						<img src="/bitrix/images/d-pravo-kontakt-f.jpg" alt="Павел">
+ <img src="/bitrix/images/d-pravo-kontakt-f.jpg" alt="Павел">
 					</div>
 					<div class="pavel-info col-xs-12 col-sm-8">
 						<div class="pavel-header">
 							<h2 class="pavel-heading">Павел Тарасов</h2>
 							<p class="pavel-about">
-								Управляющий партнер Центра «Имею Право»,<br>
-								член Ассоциации юристов России
+								 Управляющий партнер Центра «Имею Право»,<br>
+								 член Ассоциации юристов России
 							</p>
 						</div>
 						<p class="pavel-text">
 						</p>
 						<p>
-							В своей работе я руководствуюсь принципом, что «если <strong>можно</strong> сделать что-то максимально хорошо, то <strong>нужно</strong> сделать это максимально хорошо», и требую такого же подхода от своих коллег.
+							 В своей работе я руководствуюсь принципом, что «если <strong>можно</strong> сделать что-то максимально хорошо, то <strong>нужно</strong> сделать это максимально хорошо», и требую такого же подхода от своих коллег.
 						</p>
 						<p>
-							Мы заботимся о наших Клиентах и стараемся всегда выполнять данные обещания, а я несу персональную ответственность за качество наших услуг.
+							 Мы заботимся о наших Клиентах и стараемся всегда выполнять данные обещания, а я несу персональную ответственность за качество наших услуг.
 						</p>
 						<p>
-							Поэтому я готов отложить свои дела, если Вам понадобилась поддержка или ответы по вопросам, требующим особого внимания, а также лично рассмотреть Ваши предложения, идеи и отзывы.
+							 Поэтому я готов отложить свои дела, если Вам понадобилась поддержка или ответы по вопросам, требующим особого внимания, а также лично рассмотреть Ваши предложения, идеи и отзывы.
 						</p>
 						<p>
 						</p>
@@ -408,4 +408,5 @@ $APPLICATION->SetTitle("Title");
 		 <!--pavel-block--></noindex>
 	</div>
  <noindex> </noindex>
-</div><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+</div>
+<br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

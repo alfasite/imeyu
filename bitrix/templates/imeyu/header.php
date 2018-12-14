@@ -59,7 +59,7 @@
 <li><a href="/uslugi/dlya-biznesa.html">Для бизнеса</a></li>
 </ul></li>
 <li><span role="button" data-toggle="collapse">Наша практика</span><ul id="serviceAll" class="panel-collapse collapse" role="tablist"><li><a href="/practice/dela-grazhdan.html">Дела граждан</a></li>
-<li><a href="/practice/dela-yuridicheskix-licz.html">Дела юридических лиц и ИП</a></li>
+	<li><a href="/practice/dela-yuridicheskix-licz.html" style="font-size: 15px;">Дела юридических лиц и ИП</a></li>
 </ul></li>
 <li><a href="/otzyivyi.html">Отзывы</a></li>
 <li><a href="/news.html">Статьи и новости</a></li>

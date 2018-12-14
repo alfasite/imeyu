@@ -2,9 +2,6 @@
 
 
 
-
-
-
  </div>
 
  <footer class="page-footer">
@@ -83,6 +80,24 @@ style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" tit
 
 
         </div>
+<?$APPLICATION->IncludeComponent(
+	"bitrix:main.feedback", 
+	"modal1", 
+	array(
+		"EMAIL_TO" => "pravo@784784.ru",
+		"EVENT_MESSAGE_ID" => array(
+			0 => "10",
+		),
+		"OK_TEXT" => "Спасибо, ваше сообщение принято.",
+		"REQUIRED_FIELDS" => array(
+			0 => "NONE",
+		),
+		"USE_CAPTCHA" => "Y",
+		"COMPONENT_TEMPLATE" => "modal1"
+	),
+	false
+);?>
+<!--
         <div class="modal fade" id="consultModal" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -92,7 +107,7 @@ style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" tit
 <br>по Вашей проблеме
             </div>
              
-                 
+
            <form action="<?=POST_FORM_ACTION_URI?>" method="POST">
 <?=bitrix_sessid_post()?>
                 <input type="hidden" name="sended" value="2" />
@@ -155,6 +170,7 @@ style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" tit
         </div>
     </div>
 </div>
+-->
         <script src="/scripts/vendor/jquery-1.11.3.min.js"></script>
 <script src="/scripts/vendor/cssua.js"></script>
 <script src="/scripts/vendor/bootstrap.min.js"></script>

@@ -19,7 +19,7 @@ $APPLICATION->SetTitle("Title");
 	<div class="service container">
 		<div class="row">
 			<div>
-				<h1>Иные вопросы</h1>
+				<h1>Иные вопросы по трудовому праву</h1>
 			</div>
 			<div class="service-item">
 				<div class="service-image col-xs-12 col-sm-5">
@@ -411,4 +411,4 @@ $APPLICATION->SetTitle("Title");
 	</div>
  <noindex> </noindex>
 </div>
-<br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+ <br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

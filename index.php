@@ -70,8 +70,8 @@ $APPLICATION->SetPageProperty("title", "Юридические услуги в �
 	"bitrix:main.feedback",
 	"template_for_imey1",
 	Array(
-		"EMAIL_TO" => "msk-yv@yandex.ru",
-		"EVENT_MESSAGE_ID" => array("7"),
+		"EMAIL_TO" => "newimeyu@yandex.ru",
+		"EVENT_MESSAGE_ID" => array("10"),
 		"OK_TEXT" => "Спасибо, ваше сообщение принято.",
 		"REQUIRED_FIELDS" => array("NONE"),
 		"USE_CAPTCHA" => "N"
@@ -438,6 +438,6 @@ $APPLICATION->SetPageProperty("title", "Юридические услуги в �
 		 ✔ И более того, мы входим в небольшую категорию тех счастливых людей, которые по-настоящему любят и умеют делать свою работу.
 	</p>
 </div>
- <br><?
+ &nbsp;<br><?
 require($_SERVER['DOCUMENT_ROOT'].'/bitrix/footer.php');
 ?>
